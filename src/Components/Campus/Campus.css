@@ -16,3 +16,16 @@ margin-bottom: 40px;
 width: 23%;
 border-radius: 10px;
 }
+
+/* media */
+
+@media(max-width: 800px){
+    .gallery{
+        flex-wrap: wrap;
+
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
